@@ -11,3 +11,4 @@
 - Configuração de Ambiente
 - Criação, remoção e navegação em Diretorios e Arquivos
 - Script de backup
+- Automação
