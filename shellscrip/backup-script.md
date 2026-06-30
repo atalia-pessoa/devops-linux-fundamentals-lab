@@ -15,7 +15,7 @@ nano
 #! /bin/bash
 
 diretorio_backup="/home/usuario/devops
-nome_arquivo_backup="backup_$(date +%Y%m%d_%H&M%S).tar.gz"
+nome_arquivo_backup="backup_$(date +%Y%m%d_%H%M%S).tar.gz"
 tar -czf "nome_arquivo_backup" "diretorio_backup"
 echo "Backup realizado com sucesso em %nome_arquivo_backup"
 
