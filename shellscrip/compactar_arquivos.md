@@ -2,7 +2,7 @@
 
 ## Nesse bash sera compactado diferentes arquivos em diferentes diretorios e enviar para um diretorio de backup.
 
-'''Bash
+```Bash
 #! /bin/bash
 if [ "$#" -lt 2]; then
   echo "O programa $0 requer nome do diretorio e o nome dos arquivos que requer ser compactados"
@@ -12,7 +12,7 @@ arquivo_backup="$1"
 arquivos=("${@:2}")
 tar -czf "arquivo_backup" "${arquivos[@]}"
 echo "COmpactado com sucesso em $arquivo_backup"
-'''
+```
 
 
 - $# = parametro digitado pelo usuario
