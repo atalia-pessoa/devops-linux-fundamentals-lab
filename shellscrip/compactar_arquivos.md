@@ -12,8 +12,8 @@ arquivo_backup="$1"
 arquivos=("${@:2}")
 tar -czf "arquivo_backup" "${arquivos[@]}"
 echo "COmpactado com sucesso em $arquivo_backup"
-
 '''
+
 
 - $# = parametro digitado pelo usuario
 - -lt = se o parametro passado pelo usuario for menor que 2
