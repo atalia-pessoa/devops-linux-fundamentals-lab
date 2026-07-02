@@ -4,7 +4,7 @@
 
 ```Bash
 #! /bin/bash
-if [ "$#" -lt 2]; then
+if [ "$#" -lt 2 ]; then
   echo "O programa $0 requer nome do diretorio e o nome dos arquivos que requer ser compactados"
     exit 1
 fi
