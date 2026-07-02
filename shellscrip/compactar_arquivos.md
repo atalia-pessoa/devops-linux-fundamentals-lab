@@ -8,6 +8,7 @@ if [ "$#" -lt 2]; then
   echo "O programa $0 requer nome do diretorio e o nome dos arquivos que requer ser compactados"
     exit 1
 fi
+
 arquivo_backup="$1"
 arquivos=("${@:2}")
 tar -czf "arquivo_backup" "${arquivos[@]}"
