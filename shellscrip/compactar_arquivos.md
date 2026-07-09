@@ -11,7 +11,7 @@ fi
 
 nome_arquivo_backup="$1"
 arquivos=("${@:2}")
-tar -czf "arquivo_backup" "${arquivos[@]}"
+tar -czf "nome_arquivo_backup" "${arquivos[@]}"
 echo "Compactado com sucesso em $nome_arquivo_backup"
 ```
 
