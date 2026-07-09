@@ -11,7 +11,7 @@ fi
 
 nome_arquivo_backup="$1"
 arquivos=("${@:2}")
-tar -czf "nome_arquivo_backup" "${arquivos[@]}"
+tar -czf "$nome_arquivo_backup" "${arquivos[@]}"
 echo "Compactado com sucesso em $nome_arquivo_backup"
 ```
 
@@ -25,7 +25,8 @@ echo "Compactado com sucesso em $nome_arquivo_backup"
 - $1 = posição do nome do arquivo de backup
 - arquivos = variavel responsavel por receber os arquivos que seram compactados
 - ("${@:2}") = pegue todos os argumentos apartir da posição 2
-- tar = criar um arquivo compactado de acordo com os parametros
+- tar = criar um arquivo compactado de acordo com os parametros + o nome do arquivo + os outros parametros passados pelo usuario.
+- ${arquivos[@]} = vai receber todos os argumentos passados pelo usuario
 - -czf = Arquivo/gzip/criar
 - echo = saida com uma mensagem para indicar que o script foi finalizado com sucesso
 
