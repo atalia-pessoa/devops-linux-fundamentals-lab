@@ -19,7 +19,7 @@ SAIDA: tar: Removing leading `/' from member names
        Compactado com sucesso em testebackup.tar.gz
 
 
-##Listando os arquivos para visualizar o arquivo de backup criado
+## Listando os arquivos para visualizar o arquivo de backup criado
 ```Bash
 cmd@usuario: ls
 ```
