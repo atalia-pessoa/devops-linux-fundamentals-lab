@@ -1,6 +1,6 @@
 # EXECUTANDO SCRIPT DE BACKUP
 
-## Executando o arquivo de script
+## Chamando o script
 
 ```Bash
 cmd@usuario: ./compactador
