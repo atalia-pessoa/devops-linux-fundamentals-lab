@@ -19,10 +19,18 @@ SAIDA: tar: Removing leading `/' from member names
        Compactado com sucesso em testebackup.tar.gz
 
 
+##Listando os arquivos para visualizar o arquivo de backup criado
+```Bash
 cmd@usuario: ls
-SAIDA: Docs                           backup_20260627_001544.tar.gz  compactador  dir1  dir3      saudacao.txt
-backup_20260627_000831.tar.gz  backup_server.sh               devops       dir2  novo.txt  testebackup.tar.gz
+```
 
+SAIDA: testebackup.tar.gz
+
+## Abrindo o arquivo tar para verificar os arquivos existente dentro dele.
+
+```Bash
 cmd@usuario: tar -tf testebackup.tar.gz
+```
+
 SAIDA: home/usuario/saudacao.txt
-home/usuario/novo.txt
+       home/usuario/novo.txt
