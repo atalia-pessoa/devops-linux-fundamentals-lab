@@ -16,7 +16,9 @@ echo "Compactado com sucesso em $nome_arquivo_backup"
 ```
 
 
-- $# = nome do arquivo digitado pelo usuario
+## Verificando argumentos passados pelo usuario
+
+- $# = argumento passado pelo usuario
 - -lt = se o parametro passado pelo usuario for menor que 2
 - echo = exibi na tela a mensagem entre aspas duplas
 - $0 = é a possição do nome do arquivo desse bash
