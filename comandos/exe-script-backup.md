@@ -1,4 +1,4 @@
-#EXECUTANDO SCRIPT DE BACKUP
+# EXECUTANDO SCRIPT DE BACKUP
 
 ## Executando o arquivo de script
 
