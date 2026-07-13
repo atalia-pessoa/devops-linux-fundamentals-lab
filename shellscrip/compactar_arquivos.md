@@ -40,6 +40,6 @@ echo "Compactado com sucesso em $nome_arquivo_backup"
 
 ## TIPS
 
-### Na linha 07 a 10 = Executa uma condição IF que verificará se a confiçao é verdadeira, caso o usuario tenha digitado o nome do arquivo para executa-lo, a mensagem ECHO aparece informando o que ele precisa digitar mais argurmentos para executar o script de backup. A posiçao inicial do nome do script é 0.
-### Na linha 12 = Uma variavel vai receber o nome do arquivo de backup que foi digita pelo usuario no parametro/posiçao 1.
-### Na linha 13 = Uma variavel vai receber um array para armazenar os outros parametros que serão, o nome do arquivo de backup e o diretorio que ele estar. 
+1. Na linha 07 a 10 = Executa uma condição IF que verificará se a confiçao é verdadeira, caso o usuario tenha digitado o nome do arquivo para executa-lo, a mensagem ECHO aparece informando o que ele precisa digitar mais argurmentos para executar o script de backup. A posiçao inicial do nome do script é 0.
+2. Na linha 12 = Uma variavel vai receber o nome do arquivo de backup que foi digita pelo usuario no parametro/posiçao 1.
+3. Na linha 13 = Uma variavel vai receber um array para armazenar os outros parametros que serão, o nome do arquivo de backup e o diretorio que ele estar. 
