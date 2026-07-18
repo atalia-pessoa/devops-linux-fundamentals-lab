@@ -1,6 +1,6 @@
-#COMPACTAR E DESCOMPACTAR ARQUIVO DE ACORDO COM A FUNCAO DIGITADA PELO USUARIO
+# COMPACTAR E DESCOMPACTAR ARQUIVO DE ACORDO COM A FUNCAO DIGITADA PELO USUARIO
 
-##Nesse script sera solicitado ao usuario qual das funcoes ele deseja executar, seja ela Compactar um determinado arquivo ou Descompactar o mesmo.
+## Nesse script sera solicitado ao usuario qual das funcoes ele deseja executar, seja ela Compactar um determinado arquivo ou Descompactar o mesmo.
 
 ```Bash
 #! /bin/bash
