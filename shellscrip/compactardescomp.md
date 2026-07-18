@@ -2,7 +2,7 @@
 
 ##Nesse script sera solicitado ao usuario qual das funcoes ele deseja executar, seja ela Compactar um determinado arquivo ou Descompactar o mesmo.
 
-
+```Bash
 #! /bin/bash
 
 read -p "Digite qual funcao voce deseja executar: 'compactar' ou 'descompactar' = " funcao
@@ -26,3 +26,6 @@ case "$funcao" in
         exit 1
         ;;
 esac
+```
+
+
