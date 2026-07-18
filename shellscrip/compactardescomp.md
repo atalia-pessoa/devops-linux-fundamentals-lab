@@ -15,8 +15,8 @@ case "$funcao" in
                 echo "Arquivo compactado com sucesso!"
         ;;
         "descompactar")
-                read -p "Digite o nome do arquivo a ser descompactado com a extensao (.tar.gz): " nom>
-                read -p "Digite o diretorio que deseja salvar o arquivo descompactado: " diretoriod_a>
+                read -p "Digite o nome do arquivo a ser descompactado com a extensao (.tar.gz): " nomed_arquivo
+                read -p "Digite o diretorio que deseja salvar o arquivo descompactado: " diretoriod_arquivo
                 tar xzf "$nomed_arquivo" -C "$diretoriod_arquivo"
                 echo "Arquivo descompactado com sucesso!"
         ;;
