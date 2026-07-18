@@ -23,3 +23,40 @@ fi
 - $n_diretorio/${imagem%.jpg}.png: acessa novamente o diretorio e remove a extensao jpg usando o %, alegando que sera retirado a extensao jpg depois do nome.
 - echo "Imagem convertida!": mensagem de sucesso
 - else echo "Imagem nao existe!": mensagem de erro caso o diretorio nao exista.
+
+
+## Existe outra manera de escrever esse script usando o laço FOR
+
+```Bash
+#! /bin/bash
+
+read -p "Digite o caminho onde as imagens estao: " diretorio
+
+if [ ! -d "$diretorio" ]; then
+        echo "Diretorio nao existe"
+        exit 1
+fi
+
+for imagens in "$diretorio"/*.jpg; do
+        convert "$imagens" "${imagens%.jpg}.png" && echo "Imagens convertidas!" || echo "Falha na conversao"
+done
+
+echo "Conversao concluida!"
+```
+
+O unico ponto diferente é o uso do FOR que é usado para realizar a conversão de varios arquivos em um loop.
+Abaixo eu explico quais os pontos diferentes.
+
+- imagens: é a variavel responsavel por armazenar os resultados regarados a cada loop
+- "${$diretorio": diretorio digitado pelo usuario
+- /*jpg}: o barra separa o diretorio dos arquivos exitentes. O * indica que nao importa qual o nome o arquivo tenha, mas que terminei com .jpg
+- .png: é a extensao definida para conversao
+- &&: executa o proximo comando se o anterior for verdadeiro
+- ||: é o else
+
+
+
+
+
+
+
