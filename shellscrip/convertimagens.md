@@ -1,3 +1,4 @@
+# CONVERSAO DE IMAGENS JPG PARA PNG
 
 ```Bash
 #! /bin/bash
@@ -13,7 +14,6 @@ else
 fi
 ```
 
-## Recebendo diretorio onde estao armazenado a imagem
 - read -p: exibi uma mensagem para o usuario e chamado o promt para receber um valor digitado
 - n_diretorio: variavel responsavel por armazenar o valor digitado pelo usuario
 - -d "$n_diretorio": identifica se o diretorio existe ou nao
