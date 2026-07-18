@@ -24,7 +24,7 @@ echo "Compactado com sucesso em $nome_arquivo_backup"
 - $0 = é a possição do nome do arquivo desse bash
 - exit 1 = finaliza com um erro
 
-## Comando para executar receber os diretorios de backup e nome do arquivo
+## Comando para receber os diretorios de backup e nome do arquivo
 
 - nome_arquivo_backup = varivel responsavel por receber o nome do arquivo de backup
 - $1 = posição do nome do arquivo de backup
