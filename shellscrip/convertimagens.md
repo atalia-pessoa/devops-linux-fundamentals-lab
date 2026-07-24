@@ -48,7 +48,7 @@ O unico ponto diferente é o uso do FOR que é usado para realizar a conversão 
 Abaixo eu explico quais os pontos diferentes.
 
 - imagens: é a variavel responsavel por armazenar os resultados regarados a cada loop
-- "${$diretorio": diretorio digitado pelo usuario
+- "{$diretorio": diretorio digitado pelo usuario
 - /*jpg}: o barra separa o diretorio dos arquivos exitentes. O * indica que nao importa qual o nome o arquivo tenha, mas que terminei com .jpg
 - .png: é a extensao definida para conversao
 - &&: executa o proximo comando se o anterior for verdadeiro
