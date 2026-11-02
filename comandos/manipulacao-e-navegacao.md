@@ -91,3 +91,28 @@ ls music*
 #Sera exibido diretorios e arquivos que tem as iniciar: music.
 ```
 
+### 15: Verificar os processos que existem no servidor (Monitoramento)
+
+```Bash
+top
+
+#Sera exibido todos os processos que esta sendo executados no servidor, exibindo, permissoes, ID, memoria, time etc.
+```
+
+### 16: Verificando o status do servidor (Monitoramento)
+
+```Bash
+ps aux
+
+#Sera exibido uma lista geral dos requisitos e processos sendo solicitados, nome do usuario, diretorios, time etc.
+```
+
+### 17: Buscando processos especificos (Monitoramento)
+
+```Bash
+ps aux | grep nginx
+
+#Sera exibido os processos relacionados ao ngnix
+```
+
+
