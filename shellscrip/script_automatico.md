@@ -7,3 +7,8 @@
 ```
 - Salve o arquivo
 - Depois execute o arquivo:
+```Bash
+cat saida_monitoramento.txt
+```
+
+##Sera exibido a mensagem com a data e horario da execução
