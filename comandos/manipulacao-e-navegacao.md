@@ -113,6 +113,7 @@ ps aux
 ps aux | grep nginx
 
 #Sera exibido os processos relacionados ao ngnix
+#O pipe | é usado para direcionar a saida de uma comando para a entrada de outro.
 ```
 
 
